@@ -1,0 +1,62 @@
+h1.title{
+    padding-left: 200px;
+    font: 26px "Arial";
+    margin-top: 50px;
+}
+
+h1.title span{
+    color: #bcbcbc;
+}
+
+#editform {
+    width: 750px;
+    margin: 30px auto 10px;
+}
+
+#editform input[type="submit"]{
+    margin-top: 10px;
+}
+
+#editform a{
+    margin-top: 10px;
+}
+
+#table-filemanager thead tr{
+    background-color: #005d87;
+    color: #fff;
+}
+
+#table-filemanager .levelup a{
+    padding-left: 10px;
+    color: #1e2d9c;
+    font: 12px "Arial";
+}
+
+#viewfile table{
+    width: auto;
+    margin: 0 auto;
+}
+
+#viewfile a{
+    margin: 20px 200px;
+}
+
+#message-nopage {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1.title-message {
+    text-align: center;
+    margin-top: 100px;
+    font: 28px/40px "Arial";
+    color: #2e6da4;
+}
+
+#message-nopage a{
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+}
+
+

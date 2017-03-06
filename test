@@ -1,0 +1,45 @@
+<?php
+function setForm(){
+    $filename = getFileName();
+    $message = getMessage();
+    $hidden = setInputHidden();
+    if(!empty($_GET['view'])&&$_GET['view'] === 'edit'){
+        echo "<h1 class=\"title\">Редактирование файла <span>$filename</span></h1>
+                <form name=\"myform\" id=\"editform\" action=\"action.php\" method=\"get\">
+                    $message
+                    $hidden";
+                    $file = getFile();
+                    echo "<textarea class=\"form-control\" maxlength=\"1000\" name=\"editfile\" rows=\"20\">$file</textarea>
+                    <input type=\"submit\" name=\"send\" class=\"btn btn-primary\" value=\"Сохранить\"/>
+                    <a href=\"index.php\" class=\"btn btn-danger\">Вернуться на главную</a>
+                </form>";
+<?php
+function setForm(){
+    $filename = getFileName();
+    $message = getMessage();
+    $hidden = setInputHidden();
+    if(!empty($_GET['view'])&&$_GET['view'] === 'edit'){
+        echo "<h1 class=\"title\">Редактирование файла <span>$filename</span></h1>
+                <form name=\"myform\" id=\"editform\" action=\"action.php\" method=\"get\">
+                    $message
+                    $hidden";
+                    $file = getFile();
+                    echo "<textarea class=\"form-control\" maxlength=\"1000\" name=\"editfile\" rows=\"20\">$file</textarea>
+                    <input type=\"submit\" name=\"send\" class=\"btn btn-primary\" value=\"Сохранить\"/>
+                    <a href=\"index.php\" class=\"btn btn-danger\">Вернуться на главную</a>
+                </form>";
+<?php
+function setForm(){
+    $filename = getFileName();
+    $message = getMessage();
+    $hidden = setInputHidden();
+    if(!empty($_GET['view'])&&$_GET['view'] === 'edit'){
+        echo "<h1 class=\"title\">Редактирование файла <span>$filename</span></h1>
+                <form name=\"myform\" id=\"editform\" action=\"action.php\" method=\"get\">
+                    $message
+                    $hidden";
+                    $file = getFile();
+                    echo "<textarea class=\"form-control\" maxlength=\"1000\" name=\"editfile\" rows=\"20\">$file</textarea>
+                    <input type=\"submit\" name=\"send\" class=\"btn btn-primary\" value=\"Сохранить\"/>
+                    <a href=\"index.php\" class=\"btn btn-danger\">Вернуться на главную</a>
+                </form>";
